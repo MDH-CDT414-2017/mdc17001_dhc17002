@@ -14,6 +14,7 @@ class BowlingGameTest {
 	
 	@Test
 	public void strike1() {
+		//test git commit 
 		BowlingGame b = new BowlingGame("[10,0][3,6][7,2][3,6][4,4][5,3][3,3][4,5][8,1][2,6]");
 		assertEquals(94, b.getScore());
 	}
