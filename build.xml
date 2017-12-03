@@ -31,7 +31,7 @@
   </target>
 
   <target name="compile-tests" description="Compile tests" depends="compile">
-    <javac srcdir="." 
+    <javac srcdir="Bowling3/src/bowling" 
            destdir="build/test/classes"
            includeantruntime="false">
       <include name="**/*Test.java"/>
